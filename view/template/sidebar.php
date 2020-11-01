@@ -16,10 +16,11 @@
                     </div>
                     <div class="menu-wrapper">
                       <ul class="navbar-nav">
-                        <li class="nav-item active"><a class="nav-link active" href="#"><span>link 1 active </span><span class="sr-only">current</span></a></li>
+                        <li class="nav-item "><a class="nav-link"  href="users.php"><span>Gestione Utenti </span><span class="sr-only">current</span></a></li>
                         <li class="nav-item"><a class="nav-link disabled" href="#"><span>link 2 </span></a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><span>link 3 </span></a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><span>link 4</span></a></li>
+                        <!--
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
                             <span>Gestione Utenti</span>
@@ -90,6 +91,7 @@
                             </div>
                           </div>
                         </li>
+                        -->
                       </ul>
                     </div>
                   </div>

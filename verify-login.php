@@ -42,7 +42,7 @@ if(!empty($_POST)){
             header('Location: home.php'); 
         }else{
             $_SESSION['message'] = $result['message'];
-            header('Location: index.html');
+            header('Location: home.php');
         }
         
            

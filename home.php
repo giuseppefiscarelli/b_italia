@@ -4,7 +4,7 @@ require_once 'functions.php';
 
 if(!isUserLoggedin()){
 
-  header('Location:login.php');
+  header('Location:index.php');
   exit;
 }
 /*
@@ -18,7 +18,7 @@ require_once 'headerInclude.php';
  <div class="container my-4">
         <h1>Hello</h1>
         <p><?=$_SESSION['userData']['roletype']?></p>
-        //  <?=var_dump($_SESSION['userData'])?>
+         <?=var_dump($_SESSION['userData'])?>
   
         
       </div>
